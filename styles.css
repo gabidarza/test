@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+}
+
+span {
+  color: blue;
+}
+
+span::before {
+  content: "{{";
+}
+
+span::after {
+  content: "}}";
+}
